@@ -4,6 +4,7 @@
 
 ---
 
+
 ## Part A — Plan on paper (Easy)
 
 > Commit this whole part before any `.py` file exists.
@@ -177,13 +178,52 @@ One other split: a single "answer_question" tool, or a search-style `lookup(quer
 
 ### What I changed from Part A while coding
 
-<!-- what changed in your plan, and why. "None" is an answer too. -->
+None
 
 ### B2 — Tests
 
-```text
-<!-- pytest output -->
-```
+============================= test session starts =============================
+platform win32 -- Python 3.12.2, pytest-9.1.1, pluggy-1.7.0 -- C:\Users\Asus\css4007-hw4\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\Asus\css4007-hw4
+plugins: anyio-4.15.1
+collecting ... collected 32 items
+
+tests/test_tools.py::test_lookup_finds_correct_2025_number PASSED        [  3%]
+tests/test_tools.py::test_lookup_misspelled_name_suggests_the_right_one PASSED [  6%]
+tests/test_tools.py::test_lookup_similar_names_are_not_mixed_up PASSED   [  9%]
+tests/test_tools.py::test_lookup_never_uses_archived_profiles PASSED     [ 12%]
+tests/test_tools.py::test_lookup_applies_correction_notice PASSED        [ 15%]
+tests/test_tools.py::test_lookup_converts_lindenmoor_water_to_megalitres PASSED [ 18%]
+tests/test_tools.py::test_lookup_tariff_is_the_2025_one PASSED           [ 21%]
+tests/test_tools.py::test_lookup_never_crashes_on_strange_input[district-none] PASSED [ 25%]
+tests/test_tools.py::test_lookup_never_crashes_on_strange_input[field-none] PASSED [ 28%]
+tests/test_tools.py::test_lookup_never_crashes_on_strange_input[numbers] PASSED [ 31%]
+tests/test_tools.py::test_lookup_never_crashes_on_strange_input[empty] PASSED [ 34%]
+tests/test_tools.py::test_lookup_never_crashes_on_strange_input[sql-like] PASSED [ 37%]
+tests/test_tools.py::test_lookup_never_crashes_on_strange_input[path-like] PASSED [ 40%]
+tests/test_tools.py::test_lookup_never_crashes_on_strange_input[very-long-name] PASSED [ 43%]
+tests/test_tools.py::test_lookup_never_crashes_on_strange_input[region-wrong-field] PASSED [ 46%]
+tests/test_tools.py::test_calculate_multiplication PASSED                [ 50%]
+tests/test_tools.py::test_calculate_division PASSED                      [ 53%]
+tests/test_tools.py::test_calculate_precedence_and_parentheses PASSED    [ 56%]
+tests/test_tools.py::test_calculate_refuses_dangerous_input[__import__('os').system('echo hi')] PASSED [ 59%]
+tests/test_tools.py::test_calculate_refuses_dangerous_input[(1).__class__] PASSED [ 62%]
+tests/test_tools.py::test_calculate_refuses_dangerous_input[9**9**9] PASSED [ 65%]
+tests/test_tools.py::test_calculate_division_by_zero PASSED              [ 68%]
+tests/test_tools.py::test_calculate_rejects_non_arithmetic_input[name] PASSED [ 71%]
+tests/test_tools.py::test_calculate_rejects_non_arithmetic_input[string] PASSED [ 75%]
+tests/test_tools.py::test_calculate_rejects_non_arithmetic_input[bool] PASSED [ 78%]
+tests/test_tools.py::test_calculate_rejects_non_arithmetic_input[function-call] PASSED [ 81%]
+tests/test_tools.py::test_calculate_rejects_non_arithmetic_input[incomplete] PASSED [ 84%]
+tests/test_tools.py::test_calculate_rejects_non_arithmetic_input[empty] PASSED [ 87%]
+tests/test_tools.py::test_calculate_rejects_non_arithmetic_input[spaces] PASSED [ 90%]
+tests/test_tools.py::test_calculate_rejects_non_arithmetic_input[none] PASSED [ 93%]
+tests/test_tools.py::test_calculate_rejects_non_arithmetic_input[too-long] PASSED [ 96%]
+tests/test_tools.py::test_calculate_limits_very_large_numbers PASSED     [100%]
+
+============================= 32 passed in 0.05s ==============================
+
 
 ### B3 — The loop
 
