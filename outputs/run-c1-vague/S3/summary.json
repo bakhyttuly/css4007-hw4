@@ -1,0 +1,21 @@
+{
+  "run": "c1-vague",
+  "strategy": "S3",
+  "questions": 5,
+  "correct": 4,
+  "unanswered": 0,
+  "input_tokens": 10790,
+  "output_tokens": 916,
+  "median_seconds_per_question": 5.75,
+  "total_seconds": 29.9,
+  "cost_usd": 0.0032572,
+  "settings": {
+    "model": "gpt-5.6-luna",
+    "temperature": 1.0,
+    "reasoning_effort": "none",
+    "lookup_description": "vague",
+    "s2_k": 5,
+    "max_rounds": 10
+  },
+  "finished_at": "2026-10-22T17:24:40+00:00"
+}

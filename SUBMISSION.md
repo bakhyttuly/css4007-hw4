@@ -271,13 +271,25 @@ The name must match the expected name exactly (case does not matter). The number
 ## Part C — Explain and choose (Hard)
 
 ### C1 — Does the tool description matter?
+| Q-01 | 7 | 5 | Ossbridge, 4.57 (correct) | Ossbridge, 4.570 (correct) |
+| Q-03 | 5 | 5 | Lindenmoor, 5340.159 (wrong; run 2: 5.34, correct) | yes, 5340.159 (wrong) |
+| Q-08 | 4 | 4 | Brightwater, 72.456 (correct) | Brightwater, 72.456 (correct) |
+| Q-09 | 7 | 7 | Millbrook, 0.556 (correct) | Millbrook, 0.556 (correct) |
+| Q-15 | 5 | 5 | Redfen, 17.609 (correct) | Redfen, 17.609 (correct) |
 
-| Question | Calls (your description) | Calls (vague) | Answer (yours) | Answer (vague) |
-|---|---:|---:|---|---|
-| | | | | |
+With one vague line (`Looks things up.`) instead of the full lookup description, and everything else unchanged, 4 of the 5 answers were identical to the ones with the full description, and the same four were correct. No tool call returned an error in any of the 15 S3 logs I compared (5 questions in 3 runs). The number of tool calls changed on one question only: Q-01 went from 7 calls to 5. Q-08, Q-09 and Q-15 had the same calls and the same inputs. Input tokens dropped by about 430 to 570 per question when the call count stayed the same (for example Q-09: 3474 to 2902), because the long description is sent again in every round; Q-01 dropped by 1501 because it also made two fewer calls. Q-03 was wrong with both descriptions in the same way: the same formula with the extra `*1000`, giving 5340.159, so the description did not cause it. In the vague run the sentence named Lindenmoor but the final line said `yes | 5340.159`, so the name was wrong as well.
 
+Why the effect is so small: the traps are handled in the code of `lookup` (archived profiles are never returned, NR-16 is applied, Lindenmoor's cubic metres are converted to megalitres), not in the description. I also did not change the parameter schema, so the field names (`water_use_2025_ml`, `area_km2`), the `enum` of allowed fields and the parameter text "or 'region' for the water tariff" still told the model how to call the tool, and every question names its districts. A description matters most when the model must choose between tools or guess the arguments without other hints. Limits: 5 questions and one sample per condition, so this shows that there is no large effect here, not that there is none.
 ### C2 — Three mistakes explained
 
+**S1, Q-09, run 1.** The model answered `ANSWER: Brightwater | 1.06`; the expected answer is Millbrook, 0.6. S1 is told to reply with only the final line, so the model has no room to write any working: it must divide 44,675 by the area, divide 37,203 by 758.6 and subtract, all inside one forward pass, generating the digits one token at a time. That is why S1 got only 2/20 in run 1 and 3/20 in run 2. The questions it solved in both runs (Q-10 and Q-16) need a single subtraction or addition of small numbers.
+
+**S2, Q-05, run 1.** All five samples agreed: the log shows `votes = {'coldharbour | 14231.523': 5}`, and the answer is wrong (expected 14235). The model wrote "2,884,600,000 ÷ 14,926 = 193,276.147" but the true value is 193,260.083, and "2,366,900,000 ÷ 11,407 = 207,507.669" where the true value is 207,495.398. So its difference was 14,231.523 instead of 14,235.314. Voting lowers variance: random slips differ between samples and the majority cancels them. It cannot remove a systematic error. Here the same long division went wrong the same way in all five samples, even at temperature 1.0, and the vote only confirmed it. It also cost five times the tokens: 222,895 input tokens against 44,479 for S1 in run 1.
+
+**S3, Q-14, run 1 and run 2 (same wrong answer both times).** The model asked `calculate` for `5207*1000000/71388/365*1000`, which gave 199834.05, and `4390*1000000/58760/365*1000`, which gave 204686.82. It multiplied by 1,000,000 and then by 1,000 again, although one megalitre is already 1,000,000 litres. The calculator did exactly what it was told, so the 1000x slip stayed in the formula, and the answer was 4852.761 instead of about 4.85. The model did not notice that about 200,000 litres per resident per day is absurd. A calculator removes errors of arithmetic, like the long divisions that broke S2 on Q-05, because it computes exactly and the same way every time. It cannot repair a wrong formula or a wrong choice of numbers. Another S3 error shows this in run 2 (Q-11): the three divisions were right (314.7, 368.2, 370.8), but the model subtracted Ashgrove minus Redfen, then answered `Ashgrove | 2.592`, a number that no calculate call returned (it is 370.8 - 368.2, the Q-04 gap, done in its head).
+
+
+**Rounds and tokens in S3.** In the Q-09 test run the loop needed 4 model calls for 7 tool calls: first the four lookups (independent, so the model sent them together), then the two divisions (they need the lookup values), then the subtraction (it needs both division results), then the final answer. The number of rounds is the length of the longest chain of dependent steps, not the number of tool calls. Each round costs more input tokens because the API keeps no memory: every request sends the whole conversation again, with all earlier tool calls and their results. The log (`model_calls`) shows 599, 877, 972 and 1026 input tokens for rounds 1 to 4 (3474 in total), while the output stayed small: 103, 57, 31 and 33 tokens.
 ### C3 — Which strategy I would use, and what would change it
 
 ### C4 — How sure I can be

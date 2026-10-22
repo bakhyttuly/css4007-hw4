@@ -15,12 +15,16 @@ from pathlib import Path
 from openai import AuthenticationError, NotFoundError, PermissionDeniedError
 
 import strategies
+import tools
 
 QUESTIONS_PATH = Path(__file__).parent / "data" / "questions.json"
 
 # USD per 1 million tokens. Fill these in from the OpenAI pricing page for your model.
 PRICE_INPUT_PER_1M = 0.20
 PRICE_OUTPUT_PER_1M = 1.20
+
+# C1: the one-line description used instead of the full lookup description
+VAGUE_LOOKUP_DESCRIPTION = "Looks things up."
 
 # RULE FOR A CORRECT ANSWER (write the same rule in SUBMISSION.md before the first full run):
 # the name must equal the expected name (case does not matter), and the number rounded to the
@@ -50,7 +54,13 @@ def main():
     parser.add_argument("--strategies", nargs="+", default=["S1", "S2", "S3"], choices=list(strategies.STRATEGIES))
     parser.add_argument("--questions", nargs="+", help="question ids, default: all twenty")
     parser.add_argument("--out", default="outputs")
+    parser.add_argument("--vague-lookup", action="store_true",
+                        help="C1: replace the lookup description with one vague line, change nothing else")
     args = parser.parse_args()
+
+    if args.vague_lookup:
+        # TOOL_DEFINITIONS holds this same dictionary, so the model now sees the vague text
+        tools.LOOKUP_DEFINITION["function"]["description"] = VAGUE_LOOKUP_DESCRIPTION
 
     questions = json.loads(QUESTIONS_PATH.read_text(encoding="utf-8"))
     if args.questions:
@@ -103,6 +113,8 @@ def main():
             "settings": {
                 "model": strategies.MODEL,
                 "temperature": strategies.temperature_in_use(),
+                "reasoning_effort": strategies.REASONING_EFFORT,
+                "lookup_description": "vague" if args.vague_lookup else "full",
                 "s2_k": strategies.S2_K,
                 "max_rounds": strategies.MAX_ROUNDS,
             },
