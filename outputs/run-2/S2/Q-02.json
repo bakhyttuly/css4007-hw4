@@ -1,0 +1,61 @@
+{
+  "strategy": "S2",
+  "final_text": "Calculate each district’s percentage growth:\n\n- Tarnvale: \\((71,388 - 67,214) / 67,214 \\times 100 = 6.209...\\%\\)\n- Harrowfield: \\((90,212 - 83,609) / 83,609 \\times 100 = 7.898...\\%\\)\n\nDifference: \\(7.898... - 6.209... = 1.689...\\) percentage points.\n\nHarrowfield grew faster by approximately 1.689 percentage points.\n\nANSWER: Harrowfield | 1.689",
+  "answer": [
+    "Harrowfield",
+    1.689
+  ],
+  "unanswered": false,
+  "input_tokens": 11145,
+  "output_tokens": 690,
+  "seconds": 11.83240760001354,
+  "samples": [
+    {
+      "final_text": "Calculate each district’s percentage growth:\n\n- Tarnvale: \\((71,388 - 67,214) / 67,214 \\times 100 = 6.209...\\%\\)\n- Harrowfield: \\((90,212 - 83,609) / 83,609 \\times 100 = 7.898...\\%\\)\n\nDifference: \\(7.898... - 6.209... = 1.689...\\) percentage points.\n\nHarrowfield grew faster by approximately 1.689 percentage points.\n\nANSWER: Harrowfield | 1.689",
+      "answer": [
+        "Harrowfield",
+        1.689
+      ]
+    },
+    {
+      "final_text": "Tarnvale growth:\n\\[\n\\frac{71,388-67,214}{67,214}\\times100\n=\\frac{4,174}{67,214}\\times100\n=6.209\\%\\ \n\\]\n\nHarrowfield growth:\n\\[\n\\frac{90,212-83,609}{83,609}\\times100\n=\\frac{6,603}{83,609}\\times100\n=7.898\\%\n\\]\n\nDifference:\n\\[\n7.898\\%-6.209\\%=1.689\\text{ percentage points}\n\\]\n\nHarrowfield grew faster by 1.689 percentage points.\n\nANSWER: Harrowfield | 1.689",
+      "answer": [
+        "Harrowfield",
+        1.689
+      ]
+    },
+    {
+      "final_text": "Tarnvale growth:\n\\[\n\\frac{71,388-67,214}{67,214}\\times100\n=\\frac{4,174}{67,214}\\times100\n=6.209\\ldots\\%\n\\]\n\nHarrowfield growth:\n\\[\n\\frac{90,212-83,609}{83,609}\\times100\n=\\frac{6,603}{83,609}\\times100\n=7.898\\ldots\\%\n\\]\n\nDifference:\n\\[\n7.898\\ldots-6.209\\ldots=1.689\\ldots\n\\]\n\nHarrowfield grew faster by approximately 1.689 percentage points.\n\nANSWER: Harrowfield | 1.689",
+      "answer": [
+        "Harrowfield",
+        1.689
+      ]
+    },
+    {
+      "final_text": "Calculate each district’s percentage population growth:\n\n- Tarnvale: \\((71,388 - 67,214) / 67,214 \\times 100 = 6.208...\\%\\)\n- Harrowfield: \\((90,212 - 83,609) / 83,609 \\times 100 = 7.898...\\%\\)\n\nHarrowfield grew faster. Difference: \\(7.898... - 6.208... = 1.689...\\) percentage points.\n\nANSWER: Harrowfield | 1.689",
+      "answer": [
+        "Harrowfield",
+        1.689
+      ]
+    },
+    {
+      "final_text": "Tarnvale population growth:\n\\[\n\\frac{71,388-67,214}{67,214}\\times100\n=\\frac{4,174}{67,214}\\times100\n=6.209\\%\n\\]\n\nHarrowfield population growth:\n\\[\n\\frac{90,212-83,609}{83,609}\\times100\n=\\frac{6,603}{83,609}\\times100\n=7.897\\%\n\\]\n\nDifference:\n\\[\n7.897\\%-6.209\\%=1.688\\text{ percentage points}\n\\]\n\nHarrowfield grew faster by 1.688 percentage points.\n\nANSWER: Harrowfield | 1.688",
+      "answer": [
+        "Harrowfield",
+        1.688
+      ]
+    }
+  ],
+  "votes": {
+    "harrowfield | 1.689": 5
+  },
+  "error": null,
+  "question_id": "Q-02",
+  "question": "Between the 2020 and 2025 censuses, which district grew faster in percentage terms, Tarnvale or Harrowfield, and by how many percentage points?",
+  "expected": {
+    "answer": "Harrowfield",
+    "value": 1.69,
+    "decimals": 2
+  },
+  "correct": true
+}

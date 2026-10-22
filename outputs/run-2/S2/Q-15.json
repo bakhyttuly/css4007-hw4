@@ -1,0 +1,61 @@
+{
+  "strategy": "S2",
+  "final_text": "Kelmarsh: \\(3,268 \\div 11 = 297.0909\\) pupils per school.\n\nRedfen: \\(3,147 \\div 10 = 314.7\\) pupils per school.\n\nDifference: \\(314.7 - 297.0909 = 17.6091\\), so Redfen has more pupils per school by approximately 17.609 pupils.\n\nANSWER: Redfen | 17.609",
+  "answer": [
+    "Redfen",
+    17.609
+  ],
+  "unanswered": false,
+  "input_tokens": 11120,
+  "output_tokens": 489,
+  "seconds": 11.054855599883012,
+  "samples": [
+    {
+      "final_text": "Kelmarsh: \\(3,268 \\div 11 = 297.0909\\) pupils per school.\n\nRedfen: \\(3,147 \\div 10 = 314.7\\) pupils per school.\n\nDifference: \\(314.7 - 297.0909 = 17.6091\\), so Redfen has more pupils per school by approximately 17.609 pupils.\n\nANSWER: Redfen | 17.609",
+      "answer": [
+        "Redfen",
+        17.609
+      ]
+    },
+    {
+      "final_text": "Kelmarsh pupils per school:\n\n3,268 ÷ 11 = 297.090909...\n\nRedfen pupils per school:\n\n3,147 ÷ 10 = 314.7\n\nDifference:\n\n314.7 − 297.090909... = 17.609090...\n\nRedfen has more pupils per school by 17.609090... pupils per school.\n\nANSWER: Redfen | 17.609",
+      "answer": [
+        "Redfen",
+        17.609
+      ]
+    },
+    {
+      "final_text": "Kelmarsh: \\(3,268 \\div 11 = 296.??\\) pupils per school.\n\nRedfen: \\(3,147 \\div 10 = 314.7\\) pupils per school.\n\nDifference: \\(314.7 - (3268 \\div 11) = 314.7 - 297.090909... = 17.609090...\\), which is 17.609 pupils per school without rounding before the final step.\n\nANSWER: Redfen | 17.609",
+      "answer": [
+        "Redfen",
+        17.609
+      ]
+    },
+    {
+      "final_text": "Kelmarsh: \\(3,268 \\div 11 = 297.0909\\) pupils per school.\n\nRedfen: \\(3,147 \\div 10 = 314.7\\) pupils per school.\n\nDifference: \\(314.7 - 297.0909 = 17.6091\\), so Redfen has more pupils per school by 17.6091.\n\nANSWER: Redfen | 17.6091",
+      "answer": [
+        "Redfen",
+        17.6091
+      ]
+    },
+    {
+      "final_text": "Calculate pupils per school:\n\n- Kelmarsh: \\(3,268 \\div 11 = 297.090909...\\) pupils per school\n- Redfen: \\(3,147 \\div 10 = 314.7\\) pupils per school\n\nRedfen has more pupils per school. Difference:\n\n\\(314.7 - 297.090909... = 17.609090...\\), approximately **17.609 pupils per school**.\n\nANSWER: Redfen | 17.609",
+      "answer": [
+        "Redfen",
+        17.609
+      ]
+    }
+  ],
+  "votes": {
+    "redfen | 17.609": 5
+  },
+  "error": null,
+  "question_id": "Q-15",
+  "question": "Which district has more pupils per school in 2025/26, Kelmarsh or Redfen, and by how many pupils per school?",
+  "expected": {
+    "answer": "Redfen",
+    "value": 17.61,
+    "decimals": 2
+  },
+  "correct": true
+}

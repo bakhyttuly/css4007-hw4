@@ -1,0 +1,21 @@
+{
+  "strategy": "S1",
+  "final_text": "ANSWER: Redfen | 0.153",
+  "answer": [
+    "Redfen",
+    0.153
+  ],
+  "unanswered": false,
+  "input_tokens": 2218,
+  "output_tokens": 12,
+  "seconds": 1.373126900056377,
+  "error": null,
+  "question_id": "Q-19",
+  "question": "Which district has the denser paved road network, Lindenmoor or Redfen, and by how many km of road per square kilometre?",
+  "expected": {
+    "answer": "Lindenmoor",
+    "value": 0.035,
+    "decimals": 3
+  },
+  "correct": false
+}

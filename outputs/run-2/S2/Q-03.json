@@ -1,0 +1,62 @@
+{
+  "strategy": "S2",
+  "final_text": "Lindenmoor used 2,151,400 cubic metres = 2,151,400,000 litres.\n\nLindenmoor’s daily per-resident use:\n2,151,400,000 ÷ 29,051 ÷ 365 = 202.933... litres.\n\nKelmarsh used 1,739 megalitres = 1,739,000,000 litres.\n\nKelmarsh’s daily per-resident use:\n1,739,000,000 ÷ 24,117 ÷ 365 = 197.650... litres.\n\nDifference:\n202.933... − 197.650... = 5.283... litres per resident per day.\n\nLindenmoor used more water by 5.283 litres per resident per day.\n\nANSWER: Lindenmoor | 5.283",
+  "answer": [
+    "Lindenmoor",
+    5.283
+  ],
+  "unanswered": false,
+  "input_tokens": 11145,
+  "output_tokens": 796,
+  "seconds": 12.70249860023614,
+  "samples": [
+    {
+      "final_text": "Lindenmoor used 2,151,400 cubic metres = 2,151,400,000 litres.\n\nLindenmoor’s daily per-resident use:\n2,151,400,000 ÷ 29,051 ÷ 365 = 202.933... litres.\n\nKelmarsh used 1,739 megalitres = 1,739,000,000 litres.\n\nKelmarsh’s daily per-resident use:\n1,739,000,000 ÷ 24,117 ÷ 365 = 197.650... litres.\n\nDifference:\n202.933... − 197.650... = 5.283... litres per resident per day.\n\nLindenmoor used more water by 5.283 litres per resident per day.\n\nANSWER: Lindenmoor | 5.283",
+      "answer": [
+        "Lindenmoor",
+        5.283
+      ]
+    },
+    {
+      "final_text": "Lindenmoor: 2,151,400 cubic metres = 2,151,400,000 litres.\n\nLindenmoor’s daily per-resident use:\n2,151,400,000 ÷ 29,051 ÷ 365 = 202.86 litres per resident per day.\n\nKelmarsh’s use:\n1,739 megalitres = 1,739,000,000 litres.\n\nKelmarsh’s daily per-resident use:\n1,739,000,000 ÷ 24,117 ÷ 365 = 197.57 litres per resident per day.\n\nDifference:\n202.86 − 197.57 = 5.29 litres per resident per day.\n\nANSWER: Lindenmoor | 5.29",
+      "answer": [
+        "Lindenmoor",
+        5.29
+      ]
+    },
+    {
+      "final_text": "Lindenmoor: its water use was 2,151,400 cubic metres = 2,151,400,000 litres.\n\nLindenmoor per resident per day:\n2,151,400,000 ÷ 29,051 ÷ 365 = 202.869 litres\n\nKelmarsh water use was 1,739 megalitres = 1,739,000,000 litres.\n\nKelmarsh per resident per day:\n1,739,000,000 ÷ 24,117 ÷ 365 = 197.579 litres\n\nDifference:\n202.869 − 197.579 = 5.290 litres per resident per day\n\nANSWER: Lindenmoor | 5.290",
+      "answer": [
+        "Lindenmoor",
+        5.29
+      ]
+    },
+    {
+      "final_text": "Lindenmoor used 2,151,400 cubic metres = 2,151,400,000 litres.\n\nDaily per-resident use:\n2,151,400,000 ÷ 29,051 ÷ 365 = 202.92 litres per resident per day.\n\nKelmarsh used 1,739 megalitres = 1,739,000,000 litres.\n\nDaily per-resident use:\n1,739,000,000 ÷ 24,117 ÷ 365 = 197.62 litres per resident per day.\n\nDifference:\n202.92 − 197.62 = 5.30 litres per resident per day.\n\nANSWER: Lindenmoor | 5.3",
+      "answer": [
+        "Lindenmoor",
+        5.3
+      ]
+    },
+    {
+      "final_text": "Lindenmoor’s water use must first be converted from cubic metres to megalitres:\n\n- Lindenmoor: 2,151,400 m³ = 2,151.4 ML\n- Kelmarsh: 1,739 ML\n\nUsing 365 days:\n\n- Lindenmoor: \\(2,151,400,000 \\div 29,051 \\div 365 = 202.91\\) litres per resident per day\n- Kelmarsh: \\(1,739,000,000 \\div 24,117 \\div 365 = 197.55\\) litres per resident per day\n\nDifference:\n\n\\(202.91 - 197.55 = 5.36\\) litres per resident per day.\n\nANSWER: Lindenmoor | 5.36",
+      "answer": [
+        "Lindenmoor",
+        5.36
+      ]
+    }
+  ],
+  "votes": {
+    "lindenmoor | 5.283": 4,
+    "lindenmoor | 5.36": 1
+  },
+  "error": null,
+  "question_id": "Q-03",
+  "question": "In 2025, which district's households used more water per resident per day, Lindenmoor or Kelmarsh, and by how many litres per resident per day?",
+  "expected": {
+    "answer": "Lindenmoor",
+    "value": 5.3,
+    "decimals": 1
+  },
+  "correct": true
+}

@@ -1,0 +1,19 @@
+{
+  "run": "2",
+  "strategy": "S2",
+  "questions": 20,
+  "correct": 17,
+  "unanswered": 0,
+  "input_tokens": 222895,
+  "output_tokens": 13684,
+  "median_seconds_per_question": 11.9,
+  "total_seconds": 262.1,
+  "cost_usd": 0.06099980000000001,
+  "settings": {
+    "model": "gpt-5.6-luna",
+    "temperature": 1.0,
+    "s2_k": 5,
+    "max_rounds": 10
+  },
+  "finished_at": "2026-10-22T17:15:10+00:00"
+}

@@ -1,0 +1,63 @@
+{
+  "strategy": "S2",
+  "final_text": "Tarnvale:\n- Water use: 5,207 megalitres = 5,207,000,000 litres\n- Residents: 71,388\n- Days in 2025: 365\n- Per resident per day = 5,207,000,000 ÷ (71,388 × 365) = 199.845... litres\n\nAshgrove:\n- Water use: 4,390 megalitres = 4,390,000,000 litres\n- Residents: 58,760\n- Per resident per day = 4,390,000,000 ÷ (58,760 × 365) = 204.674... litres\n\nDifference = 204.674... − 199.845... = 4.829... litres per resident per day.\n\nTherefore, Ashgrove used more water by 4.829 litres per resident per day.\n\nANSWER: Ashgrove | 4.829",
+  "answer": [
+    "Ashgrove",
+    4.829
+  ],
+  "unanswered": false,
+  "input_tokens": 11145,
+  "output_tokens": 904,
+  "seconds": 14.113848899840377,
+  "samples": [
+    {
+      "final_text": "Tarnvale:  \n- Water use per resident per day = \\(5,207,000 \\text{ L} \\div 71,388 \\div 365 = 0.1998\\) L  \n- Ashgrove = \\(4,390,000 \\text{ L} \\div 58,760 \\div 365 = 0.2046\\) L  \n- Difference = \\(0.2046 - 0.1998 = 0.0048\\) L per resident per day\n\nAshgrove households used more water, by approximately 0.005 litres per resident per day.\n\nANSWER: Ashgrove | 0.005",
+      "answer": [
+        "Ashgrove",
+        0.005
+      ]
+    },
+    {
+      "final_text": "Tarnvale:\n- Water use: 5,207 megalitres = 5,207,000,000 litres\n- Residents: 71,388\n- Days in 2025: 365\n- Per resident per day = 5,207,000,000 ÷ (71,388 × 365) = 199.845... litres\n\nAshgrove:\n- Water use: 4,390 megalitres = 4,390,000,000 litres\n- Residents: 58,760\n- Per resident per day = 4,390,000,000 ÷ (58,760 × 365) = 204.674... litres\n\nDifference = 204.674... − 199.845... = 4.829... litres per resident per day.\n\nTherefore, Ashgrove used more water by 4.829 litres per resident per day.\n\nANSWER: Ashgrove | 4.829",
+      "answer": [
+        "Ashgrove",
+        4.829
+      ]
+    },
+    {
+      "final_text": "Convert megalitres to litres and calculate:\n\nTarnvale:\n- Water use: 5,207 ML = 5,207,000,000 litres\n- Population: 71,388\n- Days in 2025: 365\n- Per resident per day = 5,207,000,000 ÷ 71,388 ÷ 365 = 199.817 litres\n\nAshgrove:\n- Water use: 4,390 ML = 4,390,000,000 litres\n- Population: 58,760\n- Per resident per day = 4,390,000,000 ÷ 58,760 ÷ 365 = 204.743 litres\n\nDifference:\n204.743 − 199.817 = 4.926 litres per resident per day\n\nAshgrove households used more water.\n\nANSWER: Ashgrove | 4.926",
+      "answer": [
+        "Ashgrove",
+        4.926
+      ]
+    },
+    {
+      "final_text": "Calculate water use per resident per day:\n\n- **Tarnvale:** 5,207 megalitres = 5,207,000,000 litres  \n  \\(5,207,000,000 \\div 71,388 \\div 365 = 199.86\\) litres per resident per day\n\n- **Ashgrove:** 4,390 megalitres = 4,390,000,000 litres  \n  \\(4,390,000,000 \\div 58,760 \\div 365 = 204.70\\) litres per resident per day\n\nDifference:\n\n\\(204.70 - 199.86 = 4.84\\) litres per resident per day\n\nAshgrove households used more water.\n\nANSWER: Ashgrove | 4.84",
+      "answer": [
+        "Ashgrove",
+        4.84
+      ]
+    },
+    {
+      "final_text": "Calculate household water use per resident per day:\n\n- Tarnvale: \\(5,207\\) megalitres \\(= 5,207,000,000\\) litres  \n  \\[\n  \\frac{5,207,000,000}{71,388 \\times 365}=199.78\\text{ litres per resident per day}\n  \\]\n\n- Ashgrove: \\(4,390\\) megalitres \\(= 4,390,000,000\\) litres  \n  \\[\n  \\frac{4,390,000,000}{58,760 \\times 365}=204.62\\text{ litres per resident per day}\n  \\]\n\nDifference:\n\\[\n204.62-199.78=4.84\\text{ litres per resident per day}\n\\]\n\nAshgrove households used more water per resident per day, by approximately 4.84 litres.\n\nANSWER: Ashgrove | 4.84",
+      "answer": [
+        "Ashgrove",
+        4.84
+      ]
+    }
+  ],
+  "votes": {
+    "ashgrove | 0.005": 1,
+    "ashgrove | 4.829": 3,
+    "ashgrove | 4.926": 1
+  },
+  "error": null,
+  "question_id": "Q-14",
+  "question": "In 2025, which district's households used more water per resident per day, Tarnvale or Ashgrove, and by how many litres per resident per day?",
+  "expected": {
+    "answer": "Ashgrove",
+    "value": 4.9,
+    "decimals": 1
+  },
+  "correct": true
+}

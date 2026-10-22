@@ -1,0 +1,21 @@
+{
+  "strategy": "S1",
+  "final_text": "ANSWER: Stonecairn | 8",
+  "answer": [
+    "Stonecairn",
+    8.0
+  ],
+  "unanswered": false,
+  "input_tokens": 2215,
+  "output_tokens": 12,
+  "seconds": 1.7372768999775872,
+  "error": null,
+  "question_id": "Q-10",
+  "question": "Which district is older, Stonecairn or Coldharbour, and how many years older is it than the other?",
+  "expected": {
+    "answer": "Stonecairn",
+    "value": 8,
+    "decimals": 0
+  },
+  "correct": true
+}

@@ -1,0 +1,21 @@
+{
+  "strategy": "S1",
+  "final_text": "ANSWER: Coldharbour | 21.627",
+  "answer": [
+    "Coldharbour",
+    21.627
+  ],
+  "unanswered": false,
+  "input_tokens": 2228,
+  "output_tokens": 13,
+  "seconds": 2.453633000026457,
+  "error": null,
+  "question_id": "Q-07",
+  "question": "Which district has more paved road per 1,000 residents in 2025, Coldharbour or Stonecairn, and by how many km per 1,000 residents?",
+  "expected": {
+    "answer": "Coldharbour",
+    "value": 18.5,
+    "decimals": 2
+  },
+  "correct": false
+}

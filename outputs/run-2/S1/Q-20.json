@@ -1,0 +1,21 @@
+{
+  "strategy": "S1",
+  "final_text": "ANSWER: Harrowfield | 11462.938",
+  "answer": [
+    "Harrowfield",
+    11462.938
+  ],
+  "unanswered": false,
+  "input_tokens": 2231,
+  "output_tokens": 14,
+  "seconds": 1.5584384000394493,
+  "error": null,
+  "question_id": "Q-20",
+  "question": "Of Ossbridge, Ashgrove and Harrowfield, which district had the largest 2025 budget per resident, and by how many tenge per resident did it exceed the lowest of the three?",
+  "expected": {
+    "answer": "Ashgrove",
+    "value": 2993,
+    "decimals": 0
+  },
+  "correct": false
+}

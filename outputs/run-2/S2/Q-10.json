@@ -1,0 +1,61 @@
+{
+  "strategy": "S2",
+  "final_text": "Stonecairn was founded in 1837, while Coldharbour was founded in 1845.\n\nCalculation: 1845 − 1837 = 8 years.\n\nANSWER: Stonecairn | 8",
+  "answer": [
+    "Stonecairn",
+    8.0
+  ],
+  "unanswered": false,
+  "input_tokens": 11100,
+  "output_tokens": 237,
+  "seconds": 7.564629899919964,
+  "samples": [
+    {
+      "final_text": "Stonecairn was founded in 1837, while Coldharbour was founded in 1845.\n\nCalculation: 1845 − 1837 = 8 years.\n\nANSWER: Stonecairn | 8",
+      "answer": [
+        "Stonecairn",
+        8.0
+      ]
+    },
+    {
+      "final_text": "Stonecairn was founded in 1837, while Coldharbour was founded in 1845.\n\nCalculation: 1845 − 1837 = 8 years.\n\nANSWER: Stonecairn | 8",
+      "answer": [
+        "Stonecairn",
+        8.0
+      ]
+    },
+    {
+      "final_text": "Stonecairn was founded in 1837, while Coldharbour was founded in 1845.\n\nCalculation: 1845 − 1837 = 8 years.\n\nANSWER: Stonecairn | 8",
+      "answer": [
+        "Stonecairn",
+        8.0
+      ]
+    },
+    {
+      "final_text": "Stonecairn was founded in 1837, while Coldharbour was founded in 1845.\n\n1845 − 1837 = 8 years.\n\nANSWER: Stonecairn | 8",
+      "answer": [
+        "Stonecairn",
+        8.0
+      ]
+    },
+    {
+      "final_text": "Stonecairn was founded in 1837, while Coldharbour was founded in 1845.\n\nCalculation: 1845 − 1837 = 8 years.\n\nANSWER: Stonecairn | 8",
+      "answer": [
+        "Stonecairn",
+        8.0
+      ]
+    }
+  ],
+  "votes": {
+    "stonecairn | 8.0": 5
+  },
+  "error": null,
+  "question_id": "Q-10",
+  "question": "Which district is older, Stonecairn or Coldharbour, and how many years older is it than the other?",
+  "expected": {
+    "answer": "Stonecairn",
+    "value": 8,
+    "decimals": 0
+  },
+  "correct": true
+}

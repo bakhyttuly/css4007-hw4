@@ -1,0 +1,61 @@
+{
+  "strategy": "S2",
+  "final_text": "Harrowfield: \\(16,021.7\\) million tenge ÷ \\(13,904\\) pupils  \n\\(= 1,152,000.862...\\) tenge per pupil.\n\nTarnvale: \\(12,960.3\\) million tenge ÷ \\(10,652\\) pupils  \n\\(= 1,216,203.530...\\) tenge per pupil.\n\nDifference: \\(1,216,203.530... - 1,152,000.862... = 64,202.668...\\) tenge  \n\\(= 64.202668...\\) thousand tenge, or \\(64.203\\) thousand tenge per pupil.\n\nANSWER: Tarnvale | 64.203",
+  "answer": [
+    "Tarnvale",
+    64.203
+  ],
+  "unanswered": false,
+  "input_tokens": 11130,
+  "output_tokens": 676,
+  "seconds": 11.258141500176862,
+  "samples": [
+    {
+      "final_text": "Harrowfield: \\(16,021.7\\) million tenge ÷ \\(13,904\\) pupils  \n\\(= 1,152,000.862...\\) tenge per pupil.\n\nTarnvale: \\(12,960.3\\) million tenge ÷ \\(10,652\\) pupils  \n\\(= 1,216,203.530...\\) tenge per pupil.\n\nDifference: \\(1,216,203.530... - 1,152,000.862... = 64,202.668...\\) tenge  \n\\(= 64.202668...\\) thousand tenge, or \\(64.203\\) thousand tenge per pupil.\n\nANSWER: Tarnvale | 64.203",
+      "answer": [
+        "Tarnvale",
+        64.203
+      ]
+    },
+    {
+      "final_text": "Harrowfield: \\(16,021.7\\) million tenge ÷ \\(13,904\\) pupils \\(= 1,152.04\\) thousand tenge per pupil.\n\nTarnvale: \\(12,960.3\\) million tenge ÷ \\(10,652\\) pupils \\(= 1,216.73\\) thousand tenge per pupil.\n\nDifference: \\(1,216.73 - 1,152.04 = 64.69\\) thousand tenge per pupil.\n\nANSWER: Tarnvale | 64.69",
+      "answer": [
+        "Tarnvale",
+        64.69
+      ]
+    },
+    {
+      "final_text": "Harrowfield:\n\n- Harrowfield: \\(16,021.7\\) million tenge ÷ \\(13,904\\) pupils  \n  \\(= 1,152.05\\) thousand tenge per pupil.\n- Tarnvale: \\(12,960.3\\) million tenge ÷ \\(10,652\\) pupils  \n  \\(= 1,216.81\\) thousand tenge per pupil.\n- Difference: \\(1,216.81 - 1,152.05 = 64.76\\) thousand tenge per pupil.\n\nTarnvale’s budget is higher by approximately 64.76 thousand tenge per pupil.\n\nANSWER: Tarnvale | 64.76",
+      "answer": [
+        "Tarnvale",
+        64.76
+      ]
+    },
+    {
+      "final_text": "Calculate budget per pupil:\n\n- Harrowfield: \\(16,021.7\\) million tenge ÷ \\(13,904\\) pupils  \n  \\(= 1,152.21\\) thousand tenge per pupil.\n- Tarnvale: \\(12,960.3\\) million tenge ÷ \\(10,652\\) pupils  \n  \\(= 1,216.36\\) thousand tenge per pupil.\n\nDifference: \\(1,216.36 - 1,152.21 = 64.15\\) thousand tenge per pupil.\n\nANSWER: Tarnvale | 64.15",
+      "answer": [
+        "Tarnvale",
+        64.15
+      ]
+    },
+    {
+      "final_text": "Harrowfield: \\(16,021.7\\) million tenge ÷ \\(13,904\\) pupils  \n\\(= 1,152.6\\) thousand tenge per pupil.\n\nTarnvale: \\(12,960.3\\) million tenge ÷ \\(10,652\\) pupils  \n\\(= 1,216.7\\) thousand tenge per pupil.\n\nDifference: \\(1,216.7 - 1,152.6 = 64.1\\) thousand tenge per pupil.\n\nANSWER: Tarnvale | 64.1",
+      "answer": [
+        "Tarnvale",
+        64.1
+      ]
+    }
+  ],
+  "votes": {
+    "tarnvale | 64.203": 5
+  },
+  "error": null,
+  "question_id": "Q-12",
+  "question": "Which district's 2025 budget works out higher per school pupil, Harrowfield or Tarnvale, and by how many thousand tenge per pupil?",
+  "expected": {
+    "answer": "Tarnvale",
+    "value": 64.4,
+    "decimals": 1
+  },
+  "correct": false
+}
