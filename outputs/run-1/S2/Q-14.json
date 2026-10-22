@@ -1,0 +1,63 @@
+{
+  "strategy": "S2",
+  "final_text": "Tarnvale:\n- Water use: 5,207 ML = 5,207,000,000 litres\n- Residents: 71,388\n- Days in 2025: 365\n- Per resident per day = 5,207,000,000 ÷ (71,388 × 365) = 199.836... litres\n\nAshgrove:\n- Water use: 4,390 ML = 4,390,000,000 litres\n- Residents: 58,760\n- Per resident per day = 4,390,000,000 ÷ (58,760 × 365) = 204.662... litres\n\nDifference = 204.662... − 199.836... = 4.826... litres per resident per day.\n\nTherefore, Ashgrove households used more water, by 4.826 litres per resident per day.\n\nANSWER: Ashgrove | 4.826",
+  "answer": [
+    "Ashgrove",
+    4.826
+  ],
+  "unanswered": false,
+  "input_tokens": 11145,
+  "output_tokens": 895,
+  "seconds": 13.506260700058192,
+  "samples": [
+    {
+      "final_text": "Tarnvale:\n- Water use: 5,207 ML = 5,207,000,000 litres\n- Residents: 71,388\n- Days in 2025: 365\n- Per resident per day = 5,207,000,000 ÷ (71,388 × 365) = 199.836... litres\n\nAshgrove:\n- Water use: 4,390 ML = 4,390,000,000 litres\n- Residents: 58,760\n- Per resident per day = 4,390,000,000 ÷ (58,760 × 365) = 204.662... litres\n\nDifference = 204.662... − 199.836... = 4.826... litres per resident per day.\n\nTherefore, Ashgrove households used more water, by 4.826 litres per resident per day.\n\nANSWER: Ashgrove | 4.826",
+      "answer": [
+        "Ashgrove",
+        4.826
+      ]
+    },
+    {
+      "final_text": "Tarnvale:\n- Water use: 5,207 ML = 5,207,000,000 litres\n- Residents: 71,388\n- Daily use per resident = 5,207,000,000 ÷ 71,388 ÷ 365 = 199.999... litres\n\nAshgrove:\n- Water use: 4,390 ML = 4,390,000,000 litres\n- Residents: 58,760\n- Daily use per resident = 4,390,000,000 ÷ 58,760 ÷ 365 = 204.664... litres\n\nDifference = 204.664... − 199.999... = 4.664... litres per resident per day.\n\nANSWER: Ashgrove | 4.664",
+      "answer": [
+        "Ashgrove",
+        4.664
+      ]
+    },
+    {
+      "final_text": "Calculate water use per resident per day:\n\n- **Tarnvale:**  \n  \\(5,207\\) megalitres \\(= 5,207,000,000\\) litres  \n  \\(5,207,000,000 \\div 71,388 \\div 365 \\approx 199.890\\) litres per resident per day\n\n- **Ashgrove:**  \n  \\(4,390\\) megalitres \\(= 4,390,000,000\\) litres  \n  \\(4,390,000,000 \\div 58,760 \\div 365 \\approx 204.676\\) litres per resident per day\n\nDifference:\n\n\\(204.676 - 199.890 = 4.786\\) litres per resident per day\n\nAshgrove households used more water.\n\nANSWER: Ashgrove | 4.786",
+      "answer": [
+        "Ashgrove",
+        4.786
+      ]
+    },
+    {
+      "final_text": "Tarnvale: convert water use to litres and divide by residents and 365 days.\n\nTarnvale:\n- 5,207 megalitres = 5,207,000,000 litres\n- \\(5,207,000,000 \\div (71,388 \\times 365) = 199.84\\) litres per resident per day\n\nAshgrove:\n- 4,390 megalitres = 4,390,000,000 litres\n- \\(4,390,000,000 \\div (58,760 \\times 365) = 204.69\\) litres per resident per day\n\nDifference:\n- \\(204.69 - 199.84 = 4.85\\) litres per resident per day\n\nANSWER: Ashgrove | 4.85",
+      "answer": [
+        "Ashgrove",
+        4.85
+      ]
+    },
+    {
+      "final_text": "Tarnvale:  \n- Water use per resident per day = \\(5,207,000 \\text{ litres} \\div 71,388 \\div 365\\)  \n- \\(= 0.1998\\) litres per resident per day\n\nAshgrove:  \n- Water use per resident per day = \\(4,390,000 \\text{ litres} \\div 58,760 \\div 365\\)  \n- \\(= 0.2046\\) litres per resident per day\n\nDifference:  \n\\(0.2046 - 0.1998 = 0.0048\\) litres per resident per day.\n\nAshgrove households used more water, by approximately 0.005 litres per resident per day.\n\nANSWER: Ashgrove | 0.005",
+      "answer": [
+        "Ashgrove",
+        0.005
+      ]
+    }
+  ],
+  "votes": {
+    "ashgrove | 4.826": 3,
+    "ashgrove | 4.664": 1,
+    "ashgrove | 0.005": 1
+  },
+  "error": null,
+  "question_id": "Q-14",
+  "question": "In 2025, which district's households used more water per resident per day, Tarnvale or Ashgrove, and by how many litres per resident per day?",
+  "expected": {
+    "answer": "Ashgrove",
+    "value": 4.9,
+    "decimals": 1
+  },
+  "correct": true
+}

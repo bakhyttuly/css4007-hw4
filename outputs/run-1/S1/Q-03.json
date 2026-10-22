@@ -1,0 +1,21 @@
+{
+  "strategy": "S1",
+  "final_text": "ANSWER: Lindenmoor | 0.359",
+  "answer": [
+    "Lindenmoor",
+    0.359
+  ],
+  "unanswered": false,
+  "input_tokens": 2224,
+  "output_tokens": 12,
+  "seconds": 1.3282367999199778,
+  "error": null,
+  "question_id": "Q-03",
+  "question": "In 2025, which district's households used more water per resident per day, Lindenmoor or Kelmarsh, and by how many litres per resident per day?",
+  "expected": {
+    "answer": "Lindenmoor",
+    "value": 5.3,
+    "decimals": 1
+  },
+  "correct": false
+}

@@ -1,0 +1,61 @@
+{
+  "strategy": "S2",
+  "final_text": "Brightwater used 3,315 megalitres, while Millbrook used 2,806 megalitres.\n\nDifference in water use:\n\n3,315 − 2,806 = 509 megalitres\n\nSince 1 megalitre = 1,000 cubic metres:\n\n509 × 1,000 = 509,000 cubic metres\n\nAt 142.35 tenge per cubic metre:\n\n509,000 × 142.35 = 72,? \n142.35 × 509,000 = 72,? \n142.35 × 509 = 72,? \n142.35 × 500 = 71,175\n142.35 × 9 = 1,281.15\nTotal = 72,456.15 thousand tenge = 72.45615 million tenge\n\nBrightwater's households paid more, by 72.45615 million tenge.\n\nANSWER: Brightwater | 72.45615",
+  "answer": [
+    "Brightwater",
+    72.45615
+  ],
+  "unanswered": false,
+  "input_tokens": 11155,
+  "output_tokens": 799,
+  "seconds": 13.714587099733762,
+  "samples": [
+    {
+      "final_text": "Brightwater used 3,315 megalitres, while Millbrook used 2,806 megalitres.\n\nDifference in water use:\n\n3,315 − 2,806 = 509 megalitres\n\nSince 1 megalitre = 1,000 cubic metres:\n\n509 × 1,000 = 509,000 cubic metres\n\nAt 142.35 tenge per cubic metre:\n\n509,000 × 142.35 = 72,? \n142.35 × 509,000 = 72,? \n142.35 × 509 = 72,? \n142.35 × 500 = 71,175\n142.35 × 9 = 1,281.15\nTotal = 72,456.15 thousand tenge = 72.45615 million tenge\n\nBrightwater's households paid more, by 72.45615 million tenge.\n\nANSWER: Brightwater | 72.45615",
+      "answer": [
+        "Brightwater",
+        72.45615
+      ]
+    },
+    {
+      "final_text": "Brightwater used 3,315 megalitres and Millbrook used 2,806 megalitres.\n\nDifference in water use:\n3,315 − 2,806 = 509 megalitres\n\nConvert to cubic metres:\n509 × 1,000 = 509,000 cubic metres\n\nCost difference:\n509,000 × 142.35 = 72,? \n142.35 × 509,000 = 72,? \n142.35 × 509 = 72,? \n142.35 × 500 = 71,175\n142.35 × 9 = 1,281.15\nTotal = 72,456.15 thousand tenge = 72.45615 million tenge\n\nBrightwater's households paid more by 72.45615 million tenge.\n\nANSWER: Brightwater | 72.45615",
+      "answer": [
+        "Brightwater",
+        72.45615
+      ]
+    },
+    {
+      "final_text": "Brightwater used 3,315 megalitres, while Millbrook used 2,806 megalitres.\n\nDifference in use:\n3,315 − 2,806 = 509 megalitres  \n509 megalitres = 509,000 cubic metres\n\nCost difference:\n509,000 × 142.35 = 72,354,150 tenge  \n72,354,150 ÷ 1,000,000 = 72.35415 million tenge\n\nBrightwater's households paid more.\n\nANSWER: Brightwater | 72.35415",
+      "answer": [
+        "Brightwater",
+        72.35415
+      ]
+    },
+    {
+      "final_text": "Brightwater used 3,315 megalitres and Millbrook used 2,806 megalitres.\n\nDifference in use:\n3,315 − 2,806 = 509 megalitres\n\nConvert to cubic metres:\n509 × 1,000 = 509,000 cubic metres\n\nCost difference:\n509,000 × 142.35 = 72,456,150 tenge\n\nConvert to million tenge:\n72,456,150 ÷ 1,000,000 = 72.45615 million tenge\n\nTherefore, Brightwater’s households paid more, by 72.45615 million tenge.\n\nANSWER: Brightwater | 72.45615",
+      "answer": [
+        "Brightwater",
+        72.45615
+      ]
+    },
+    {
+      "final_text": "Brightwater used 3,315 megalitres, while Millbrook used 2,806 megalitres.\n\nDifference in water use:\n3,315 − 2,806 = 509 megalitres\n\nConvert to cubic metres:\n509 × 1,000 = 509,000 cubic metres\n\nCost difference:\n509,000 × 142.35 = 72,456,150 tenge\n\nConvert to million tenge:\n72,456,150 ÷ 1,000,000 = 72.45615 million tenge\n\nTherefore, Brightwater’s households paid more, by 72.45615 million tenge.\n\nANSWER: Brightwater | 72.45615",
+      "answer": [
+        "Brightwater",
+        72.45615
+      ]
+    }
+  ],
+  "votes": {
+    "brightwater | 72.45615": 5
+  },
+  "error": null,
+  "question_id": "Q-08",
+  "question": "At the 2025 household water tariff, whose households paid more for water in 2025, Brightwater's or Millbrook's, and by how many million tenge?",
+  "expected": {
+    "answer": "Brightwater",
+    "value": 72.46,
+    "decimals": 2
+  },
+  "correct": true
+}

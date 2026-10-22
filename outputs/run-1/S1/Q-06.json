@@ -1,0 +1,21 @@
+{
+  "strategy": "S1",
+  "final_text": "ANSWER: yes | 13117",
+  "answer": [
+    "yes",
+    13117.0
+  ],
+  "unanswered": false,
+  "input_tokens": 2224,
+  "output_tokens": 10,
+  "seconds": 1.2803043000167236,
+  "error": null,
+  "question_id": "Q-06",
+  "question": "Is the combined 2025 population of Redfen and Kelmarsh larger than the 2025 population of Ossford, and by how many residents do they differ?",
+  "expected": {
+    "answer": "yes",
+    "value": 14069,
+    "decimals": 0
+  },
+  "correct": false
+}

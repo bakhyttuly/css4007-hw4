@@ -1,0 +1,21 @@
+{
+  "strategy": "S1",
+  "final_text": "ANSWER: Harrowfield | 433.847",
+  "answer": [
+    "Harrowfield",
+    433.847
+  ],
+  "unanswered": false,
+  "input_tokens": 2221,
+  "output_tokens": 13,
+  "seconds": 1.4338285999838263,
+  "error": null,
+  "question_id": "Q-12",
+  "question": "Which district's 2025 budget works out higher per school pupil, Harrowfield or Tarnvale, and by how many thousand tenge per pupil?",
+  "expected": {
+    "answer": "Tarnvale",
+    "value": 64.4,
+    "decimals": 1
+  },
+  "correct": false
+}

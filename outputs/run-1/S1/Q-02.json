@@ -1,0 +1,21 @@
+{
+  "strategy": "S1",
+  "final_text": "ANSWER: Harrowfield | 0.065 percentage points",
+  "answer": [
+    "Harrowfield",
+    0.065
+  ],
+  "unanswered": false,
+  "input_tokens": 2224,
+  "output_tokens": 15,
+  "seconds": 1.6547871000366285,
+  "error": null,
+  "question_id": "Q-02",
+  "question": "Between the 2020 and 2025 censuses, which district grew faster in percentage terms, Tarnvale or Harrowfield, and by how many percentage points?",
+  "expected": {
+    "answer": "Harrowfield",
+    "value": 1.69,
+    "decimals": 2
+  },
+  "correct": false
+}

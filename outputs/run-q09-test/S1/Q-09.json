@@ -1,0 +1,21 @@
+{
+  "strategy": "S1",
+  "final_text": "ANSWER: Brightwater | 0.001",
+  "answer": [
+    "Brightwater",
+    0.001
+  ],
+  "unanswered": false,
+  "input_tokens": 2218,
+  "output_tokens": 12,
+  "seconds": 4.526549799949862,
+  "error": null,
+  "question_id": "Q-09",
+  "question": "Which district has the higher population density in 2025, Brightwater or Millbrook, and by how many residents per square kilometre?",
+  "expected": {
+    "answer": "Millbrook",
+    "value": 0.6,
+    "decimals": 1
+  },
+  "correct": false
+}

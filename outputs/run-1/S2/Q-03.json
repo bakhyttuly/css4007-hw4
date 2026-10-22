@@ -1,0 +1,62 @@
+{
+  "strategy": "S2",
+  "final_text": "Lindenmoor: convert water use to litres and divide by population and 365 days.\n\n- Lindenmoor: 2,151,400 m³ × 1,000 ÷ (29,051 × 365) = 0.2028? Wait, 2,151,400 m³ = 2,151,400,000 litres, so:\n  2,151,400,000 ÷ 10,603,615 = 202.904 litres/resident/day.\n- Kelmarsh: 1,739 ML = 1,739,000,000 litres:\n  1,739,000,000 ÷ (24,117 × 365) = 197.600 litres/resident/day.\n- Difference: 202.904 − 197.600 = 5.304 litres/resident/day.\n\nANSWER: Lindenmoor | 5.304",
+  "answer": [
+    "Lindenmoor",
+    5.304
+  ],
+  "unanswered": false,
+  "input_tokens": 11145,
+  "output_tokens": 930,
+  "seconds": 13.593772000167519,
+  "samples": [
+    {
+      "final_text": "Lindenmoor: convert water use to litres and divide by population and 365 days.\n\n- Lindenmoor: 2,151,400 m³ × 1,000 ÷ (29,051 × 365) = 0.2028? Wait, 2,151,400 m³ = 2,151,400,000 litres, so:\n  2,151,400,000 ÷ 10,603,615 = 202.904 litres/resident/day.\n- Kelmarsh: 1,739 ML = 1,739,000,000 litres:\n  1,739,000,000 ÷ (24,117 × 365) = 197.600 litres/resident/day.\n- Difference: 202.904 − 197.600 = 5.304 litres/resident/day.\n\nANSWER: Lindenmoor | 5.304",
+      "answer": [
+        "Lindenmoor",
+        5.304
+      ]
+    },
+    {
+      "final_text": "Convert water use to litres and divide by 2025 population and 365 days.\n\nLindenmoor:\n- 2,151,400 cubic metres × 1,000 = 2,151,400,000 litres\n- 2,151,400,000 ÷ 29,051 ÷ 365 = 202.89 litres per resident per day\n\nKelmarsh:\n- 1,739 megalitres × 1,000,000 = 1,739,000,000 litres\n- 1,739,000,000 ÷ 24,117 ÷ 365 = 197.65 litres per resident per day\n\nDifference:\n- 202.89 − 197.65 = 5.24 litres per resident per day\n\nLindenmoor used more water.\n\nANSWER: Lindenmoor | 5.24",
+      "answer": [
+        "Lindenmoor",
+        5.24
+      ]
+    },
+    {
+      "final_text": "Convert water use to litres and divide by population and 365 days.\n\nLindenmoor:\n- 2,151,400 cubic metres = 2,151,400,000 litres\n- \\(2,151,400,000 \\div 29,051 \\div 365 = 202.919...\\) litres per resident per day\n\nKelmarsh:\n- 1,739 megalitres = 1,739,000,000 litres\n- \\(1,739,000,000 \\div 24,117 \\div 365 = 197.630...\\) litres per resident per day\n\nDifference:\n- \\(202.919... - 197.630... = 5.289...\\) litres per resident per day\n\nLindenmoor used more water by 5.289 litres per resident per day.\n\nANSWER: Lindenmoor | 5.289",
+      "answer": [
+        "Lindenmoor",
+        5.289
+      ]
+    },
+    {
+      "final_text": "Lindenmoor’s water use:  \n2,151,400 cubic metres = 2,151,400,000 litres  \nDaily per resident = 2,151,400,000 ÷ 29,051 ÷ 365 = 202.87 litres\n\nKelmarsh’s water use:  \n1,739 megalitres = 1,739,000,000 litres  \nDaily per resident = 1,739,000,000 ÷ 24,117 ÷ 365 = 197.58 litres\n\nDifference:  \n202.87 − 197.58 = 5.29 litres per resident per day\n\nTherefore, Lindenmoor had the higher rate by 5.29 litres per resident per day.\n\nANSWER: Lindenmoor | 5.29",
+      "answer": [
+        "Lindenmoor",
+        5.29
+      ]
+    },
+    {
+      "final_text": "Use 2025 population and household water use. Convert megalitres to litres, then divide by residents and 365 days.\n\nLindenmoor:\n- \\(2,151,400\\) cubic metres \\(= 2,151,400,000\\) litres\n- \\(2,151,400,000 \\div (29,051 \\times 365) = 202.831...\\) litres per resident per day\n\nKelmarsh:\n- \\(1,739\\) megalitres \\(= 1,739,000,000\\) litres\n- \\(1,739,000,000 \\div (24,117 \\times 365) = 197.603...\\) litres per resident per day\n\nDifference:\n- \\(202.831... - 197.603... = 5.228...\\) litres per resident per day\n\nLindenmoor used more water by approximately 5.228 litres per resident per day.\n\nANSWER: Lindenmoor | 5.228",
+      "answer": [
+        "Lindenmoor",
+        5.228
+      ]
+    }
+  ],
+  "votes": {
+    "lindenmoor | 5.304": 3,
+    "lindenmoor | 5.24": 2
+  },
+  "error": null,
+  "question_id": "Q-03",
+  "question": "In 2025, which district's households used more water per resident per day, Lindenmoor or Kelmarsh, and by how many litres per resident per day?",
+  "expected": {
+    "answer": "Lindenmoor",
+    "value": 5.3,
+    "decimals": 1
+  },
+  "correct": true
+}

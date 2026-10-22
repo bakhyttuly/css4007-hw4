@@ -1,0 +1,61 @@
+{
+  "strategy": "S2",
+  "final_text": "Calculate each population decrease as a percentage of the 2020 population:\n\n- Ossford: decrease = 31,560 − 30,982 = 578  \n  Percentage = 578 ÷ 31,560 × 100 = 1.830167%\n\n- Stonecairn: decrease = 15,473 − 14,926 = 547  \n  Percentage = 547 ÷ 15,473 × 100 = 3.535905%\n\n- Coldharbour: decrease = 11,902 − 11,407 = 495  \n  Percentage = 495 ÷ 11,902 × 100 = 4.158965%\n\nColdharbour lost the largest percentage, approximately 4.159%.\n\nANSWER: Coldharbour | 4.159",
+  "answer": [
+    "Coldharbour",
+    4.159
+  ],
+  "unanswered": false,
+  "input_tokens": 11165,
+  "output_tokens": 830,
+  "seconds": 13.136769599979743,
+  "samples": [
+    {
+      "final_text": "Calculate each population decrease as a percentage of the 2020 population:\n\n- Ossford: decrease = 31,560 − 30,982 = 578  \n  Percentage = 578 ÷ 31,560 × 100 = 1.830167%\n\n- Stonecairn: decrease = 15,473 − 14,926 = 547  \n  Percentage = 547 ÷ 15,473 × 100 = 3.535905%\n\n- Coldharbour: decrease = 11,902 − 11,407 = 495  \n  Percentage = 495 ÷ 11,902 × 100 = 4.158965%\n\nColdharbour lost the largest percentage, approximately 4.159%.\n\nANSWER: Coldharbour | 4.159",
+      "answer": [
+        "Coldharbour",
+        4.159
+      ]
+    },
+    {
+      "final_text": "Calculate each population decrease as a percentage of the 2020 population:\n\n- Ossford: decrease = 31,560 − 30,982 = 578  \n  Percentage = 578 ÷ 31,560 × 100 = 1.8314…%\n\n- Stonecairn: decrease = 15,473 − 14,926 = 547  \n  Percentage = 547 ÷ 15,473 × 100 = 3.5361…%\n\n- Coldharbour: decrease = 11,902 − 11,407 = 495  \n  Percentage = 495 ÷ 11,902 × 100 = 4.1581…%\n\nColdharbour lost the largest percentage, approximately 4.158%.\n\nANSWER: Coldharbour | 4.158",
+      "answer": [
+        "Coldharbour",
+        4.158
+      ]
+    },
+    {
+      "final_text": "Calculate each population decline as:\n\n\\[\n\\text{Percentage loss}=\\frac{\\text{2020 population}-\\text{2025 population}}{\\text{2020 population}}\\times100\n\\]\n\n- **Ossford:** \\((31,560-30,982)/31,560 \\times 100 = 1.8314\\%\\)\n- **Stonecairn:** \\((15,473-14,926)/15,473 \\times 100 = 3.5343\\%\\)\n- **Coldharbour:** \\((11,902-11,407)/11,902 \\times 100 = 4.1581\\%\\)\n\nColdharbour lost the largest percentage, approximately **4.158%**.\n\nANSWER: Coldharbour | 4.158",
+      "answer": [
+        "Coldharbour",
+        4.158
+      ]
+    },
+    {
+      "final_text": "Calculate each percentage population loss:\n\n- **Ossford:** loss = 31,560 − 30,982 = 578  \n  Percentage = 578 ÷ 31,560 × 100 = **1.8314%**\n\n- **Stonecairn:** loss = 15,473 − 14,926 = 547  \n  Percentage = 547 ÷ 15,473 × 100 = **3.5368%**\n\n- **Coldharbour:** loss = 11,902 − 11,407 = 495  \n  Percentage = 495 ÷ 11,902 × 100 = **4.1581%**\n\nColdharbour lost the largest percentage, **4.158%**.\n\nANSWER: Coldharbour | 4.158",
+      "answer": [
+        "Coldharbour",
+        4.158
+      ]
+    },
+    {
+      "final_text": "Calculate each percentage population loss:\n\n- **Ossford:** loss = 31,560 − 30,982 = 578  \n  Percentage loss = 578 ÷ 31,560 × 100 = **1.830...%**\n\n- **Stonecairn:** loss = 15,473 − 14,926 = 547  \n  Percentage loss = 547 ÷ 15,473 × 100 = **3.535...%**\n\n- **Coldharbour:** loss = 11,902 − 11,407 = 495  \n  Percentage loss = 495 ÷ 11,902 × 100 = **4.158...%**\n\nColdharbour lost the largest percentage, **4.158%**.\n\nANSWER: Coldharbour | 4.158",
+      "answer": [
+        "Coldharbour",
+        4.158
+      ]
+    }
+  ],
+  "votes": {
+    "coldharbour | 4.159": 5
+  },
+  "error": null,
+  "question_id": "Q-13",
+  "question": "Ossford, Stonecairn and Coldharbour all lost population between the 2020 and 2025 censuses. Which lost the largest percentage, and what was that percentage?",
+  "expected": {
+    "answer": "Coldharbour",
+    "value": 4.16,
+    "decimals": 2
+  },
+  "correct": true
+}

@@ -1,0 +1,21 @@
+{
+  "strategy": "S1",
+  "final_text": "ANSWER: Ossbridge | 8.923",
+  "answer": [
+    "Ossbridge",
+    8.923
+  ],
+  "unanswered": false,
+  "input_tokens": 2218,
+  "output_tokens": 12,
+  "seconds": 1.756930600036867,
+  "error": null,
+  "question_id": "Q-01",
+  "question": "Which district has the higher population density in 2025, Ossbridge or Ossford, and by how many residents per square kilometre?",
+  "expected": {
+    "answer": "Ossbridge",
+    "value": 4.6,
+    "decimals": 1
+  },
+  "correct": false
+}

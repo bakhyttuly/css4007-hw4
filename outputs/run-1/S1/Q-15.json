@@ -1,0 +1,21 @@
+{
+  "strategy": "S1",
+  "final_text": "ANSWER: Kelmarsh | 5.9",
+  "answer": [
+    "Kelmarsh",
+    5.9
+  ],
+  "unanswered": false,
+  "input_tokens": 2219,
+  "output_tokens": 13,
+  "seconds": 1.7645880999043584,
+  "error": null,
+  "question_id": "Q-15",
+  "question": "Which district has more pupils per school in 2025/26, Kelmarsh or Redfen, and by how many pupils per school?",
+  "expected": {
+    "answer": "Redfen",
+    "value": 17.61,
+    "decimals": 2
+  },
+  "correct": false
+}

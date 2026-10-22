@@ -19,8 +19,8 @@ import strategies
 QUESTIONS_PATH = Path(__file__).parent / "data" / "questions.json"
 
 # USD per 1 million tokens. Fill these in from the OpenAI pricing page for your model.
-PRICE_INPUT_PER_1M = None
-PRICE_OUTPUT_PER_1M = None
+PRICE_INPUT_PER_1M = 0.20
+PRICE_OUTPUT_PER_1M = 1.20
 
 # RULE FOR A CORRECT ANSWER (write the same rule in SUBMISSION.md before the first full run):
 # the name must equal the expected name (case does not matter), and the number rounded to the
